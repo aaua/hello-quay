@@ -13,3 +13,6 @@ RUN ln -s /usr/share/zoneinfo/Japan /etc/localtime
 
 # editor install
 RUN yum install -y vim && yum clean all
+
+# test
+ADD ./www/ /var/www/
